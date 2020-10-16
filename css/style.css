@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#sudoku {
+	width: 600px;
+	height: 600px;
+    margin: 0 auto; 
+}
+
+table {
+	border-collapse: collapse;
+	border: 5px solid black;
+}
+
+.case {
+	width: 60px;
+	height: 60px;
+	border: 1px solid grey;
+	font-size: 2em;
+	text-align: center;
+}
+
+.blackCase {
+	width: 60px;
+	height: 60px;
+	border: 1px solid grey;
+	border-right: 5px solid black;
+	font-size: 2em;
+	text-align: center;
+}
+
+.blackCase2 {
+	width: 60px;
+	height: 60px;
+	border: 1px solid grey;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	font-size: 2em;
+	text-align: center;
+}
+
+.blackCase3 {
+	width: 60px;
+	height: 60px;
+	border: 1px solid grey;
+	border-bottom: 5px solid black;
+	font-size: 2em;
+	text-align: center;
+}
+
+button {
+	height: 50;
+	width: 120;
+	border-radius: 20px;
+	font-size: 2em;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+}
+
+p {
+	font-size: 2em;
+}
